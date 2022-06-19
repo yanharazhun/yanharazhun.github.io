@@ -1,0 +1,49 @@
+.join
+{
+    padding-top:120px;
+    padding-bottom:120px;
+    background-image: url("/img/join/photo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex:1 1 auto;
+}
+
+.join__row
+{
+    display: flex;
+    justify-content: flex-end;
+    & h2
+    {
+        width: 508px;
+        font-weight: 500;
+        font-size: 58px;
+        line-height: 120%;
+        color: #353A5A;
+    }
+    & p
+    {
+        padding-top:20px;
+        width: 508px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #353A5A;
+    }
+    & a
+    {
+        margin-top:50px;
+        width: 230px;
+        height: 56px;
+        background-color: #FA9F42;
+        border-radius: 0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color:white;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+    }
+}
